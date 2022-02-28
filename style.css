@@ -18,6 +18,7 @@ h1{
 li{
     list-style: none;
     font-size: 18px;
+    
 }
 
 .topnav {
@@ -41,7 +42,7 @@ li{
 }
   
 .topnav a.active {
-    background-color: #2196F3;
+    background-color: lightblue;
     color: white;
 }
   
@@ -112,7 +113,7 @@ li{
 }
 
 .sort{
-    background-color: #af4c9e;
+    background-color: grey;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -130,16 +131,16 @@ li{
     background-color: white; 
     color: black; 
     float: right;
-    border: 2px solid #af4c9e;
+    border: 2px solid greenyellow;
 }
   
 .sort:hover {
-    background-color: #af4c9e;
+    background-color: green;
     color: white;
 }
 
 .add{
-    background-color: #af4c9e; /* Green */
+    background-color: greenyellow; /* Green */
     border: none;
     color: white;
     padding: 10px 20px;
@@ -156,12 +157,12 @@ li{
 .add {
     background-color: white; 
     color: black; 
-    border: 2px solid #af4c9e;
+    border: 2px solid greenyellow;
     float: left;
 }
   
 .add:hover {
-    background-color: #af4c9e;
+    background-color: green;
     color: white;
 }
 
@@ -213,7 +214,7 @@ li{
 }
 
 .adding{
-    background-color: #af4c9e; /* Green */
+    background-color: greenyellow; 
     border: none;
     color: white;
     padding: 5px 10px;
@@ -230,12 +231,12 @@ li{
 .adding {
     background-color: white; 
     color: black; 
-    border: 2px solid #af4c9e;
+    border: 2px solid greenyellow;
     float: left;
 }
   
 .adding:hover {
-    background-color: #af4c9e;
+    background-color: green;
     color: white;
 }
 

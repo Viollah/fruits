@@ -1,6 +1,7 @@
 const fruitNames = ["Grapes", "Melon", "Watermelon", "Tangerine", "Lemon", "Banana", "Pineapple", "Mango", "Red Apple"];
 const fruits = ["🍇", "🍈", "🍉", "🍊", "🍋", "🍌", "🍍", "🥭", "🍎"];
 
+
 const fruitName = document.querySelector(".nameInput")
 const fruitsIcon = document.querySelector(".IconInput")
 const sortBtn = document.querySelector(".sort")
