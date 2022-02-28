@@ -28,21 +28,27 @@ fruitName.innerHTML = userTemplate({ fruitName: fruitNames})
 fruitsIcon.innerHTML = userTemplateFruit({ icons: fruits })
 
 // search
-function search(){
-  var txt = document.getElementById('txt').value;
-  var index = fruitNames.indexOf(txt);
- 
-  if(index !==-1){
-      alert('Exist');
-     
-  }else{
-      alert(' Do Not Exist');
+const search = () =>{
+  const searchbox = document.getElementById("search-item").value.toUpperCase();
+  const fruitsitems= document.getElementById("product-list");
+  const product = document.querySelectorAll(".product");
+  const productname= document.getElementsByTagName("h2");
+
+  for(var i=0; i<productname.length;i++){
+      let match = product[i].getElementsByTagName('h2')[0];
+
+      if(match){
+       let textvalue =  match.textContent || match.innerHTML;
+
+       if(textvalue.toUpperCase().indexOf(searchbox)>-1){
+           product[i].style.display = "";
+       }else{
+          product[i].style.display = "none"; 
+       }
+
+      }
   }
-
-
 }
-
-document.getElementById('pgh').innerHTML=fruitNames;
 
 
 function sortAlphabetically() {

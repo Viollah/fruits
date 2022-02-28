@@ -39,6 +39,7 @@ h3 {
 
 h4 {
   font-size: 1.125rem;
+  
 }
 
 h5 {
@@ -93,6 +94,7 @@ p {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 .row {
@@ -182,6 +184,7 @@ p {
 @media only screen and (min-width: 33.75em) {  /* 540px */
   .container {
     width: 80%;
+    
   }
 }
 
@@ -243,5 +246,24 @@ p {
   .container {
     width: 75%;
     max-width: 60rem;
+   
   }
+}
+.product{
+  display:inline-block;
+  align-items: center;
+  cursor: pointer;
+  padding-bottom: 20px;
+}
+.product img{
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+h2{
+  font-size: 12px;
+}
+.product-list{
+  padding: 20px 0;
 }

@@ -31,15 +31,54 @@
 
     <div class="container">  
         
-         <form method="get" action="/search/" class="search-form"> 
+         <form class="search-form"> 
             <label>
             <span class="sr-only">Search Fruits:</span>
-            <!-- <input type="search" name="q" value="" placeholder="Search You Favourate Fruit" id="id_q"> -->
-            <input type="text" name="txt" placeholder="Search You Favourate Fruit" id="txt"/>
-           <button  onclick="search();" class="search-form__button" aria-label="search">🔍</button>
-           <p id="pgh"></p>
+            
+            <input type="text" name="" id="search-item" placeholder="search fruits" onkeyup="search()"> 
+           <!-- <button  onclick="search();" class="search-form__button" aria-label="search">🔍</button>  -->
+          
             </label>
         </form> 
+        <div class="product-list" id="product-list">
+            <div class="product">
+                <img src="images/grapes.jpg" alt="">
+                <h2>Grapes</h2>
+                
+            </div>
+            <div class="product">
+                <img src="images/melon.jpg" alt="">
+                <h2>Melon</h2>
+            </div>
+            <div class="product">
+                <img src="images/watermelon.jpg" alt="">
+                <h2>Watermelon</h2>
+            </div>
+            <div class="product">
+                <img src="images/Tangerine.jpg" alt="">
+                <h2>Tangerine</h2>
+            </div>
+            <div class="product">
+                <img src="images/lemon.jpg" alt="">
+                <h2>Lemon</h2>
+            </div>
+            <div class="product">
+                <img src="images/banana.jpg" alt="">
+                <h2>Banana</h2>
+            </div>
+            <div class="product">
+                <img src="images/Pineapple.jpg" alt="">
+                <h2>Pineapple</h2>
+            </div>
+            <div class="product">
+                <img src="images/Mango.jpg" alt="">
+                <h2>Mango</h2>
+            </div>
+            <div class="product">
+                <img src="images/Red Apple.jpg" alt="">
+                <h2>Red Apple</h2>
+            </div>
+        </div>
         
         <div class="col-11">
             
@@ -68,12 +107,12 @@
         <div class="row">
             <div class="col-6">
                 <h4>Fruit Name</h4>
-                    <!-- <div>Grape</div> -->
+                   
                 <div class="nameInput"> </div>
             </div>
             <div class="col-6">
                 <h4>Fruit Icon</h4>
-                    <!-- <div>🍇</div> -->
+                    
                 <div class="IconInput"> </div>
             </div>
         </div>
