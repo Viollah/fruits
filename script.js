@@ -26,6 +26,24 @@ var userTemplateFruit = Handlebars.compile(templateSourceFruit);
 fruitName.innerHTML = userTemplate({ fruitName: fruitNames})
 fruitsIcon.innerHTML = userTemplateFruit({ icons: fruits })
 
+// search
+function search(){
+  var txt = document.getElementById('txt').value;
+  var index = fruitNames.indexOf(txt);
+ 
+  if(index !==-1){
+      alert('Exist');
+     
+  }else{
+      alert(' Do Not Exist');
+  }
+
+
+}
+
+document.getElementById('pgh').innerHTML=fruitNames;
+
+
 function sortAlphabetically() {
 
   let sortedFruitNames = fruitNames.sort()
@@ -69,3 +87,4 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 }
+
