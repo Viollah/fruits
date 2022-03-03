@@ -100,6 +100,7 @@ p {
 .row {
   position: relative;
   width: 100%;
+
 }
 
 .row [class^="col"] {
@@ -254,6 +255,7 @@ p {
   align-items: center;
   cursor: pointer;
   padding-bottom: 15px;
+  
 }
 .product img{
   width: 70px;

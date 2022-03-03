@@ -1,4 +1,4 @@
-const fruitNames = ["Grapes", "Melon", "Watermelon", "Tangerine", "Lemon", "Banana", "Pineapple", "Mango", "Red Apple"];
+const fruitNames = ["Grapes🍇", "Melon🍈", "Watermelon🍉", "Tangerine🍊", "Lemon🍋", "Banana🍌", "Pineapple🍍", "Mango🥭", "Red Apple🍎"];
 const fruits = ["🍇", "🍈", "🍉", "🍊", "🍋", "🍌", "🍍", "🥭", "🍎"];
 
 
@@ -59,6 +59,7 @@ function sortAlphabetically() {
   // fruitsIcon.innerHTML = userTemplateFruit({ icons: sortedFruitIcon })
 }
 sortBtn.addEventListener('click', sortAlphabetically)
+
 
 function addingNewFruit() {
   const newFruits = gettingNewFruitName.value
