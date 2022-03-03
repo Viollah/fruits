@@ -68,6 +68,7 @@ function addingNewFruit() {
   fruitNames[fruitNames.length]= newFruits;
   fruitsIcon.innerHTML = userTemplateFruit({ icons: fruits })
   fruits[fruits.length]= newFruits2;
+  
 }
 addingNewFruitNameToArray.addEventListener('click', addingNewFruit)
 // Get the modal
